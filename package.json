@@ -1,0 +1,30 @@
+{
+  "name": "datamine-updates",
+  "version": "1.0.0",
+  "description": "Discord bot that sends Discord client updates to subscribed servers",
+  "main": "build/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sodacova/datamine-update-bot.git"
+  },
+  "author": "soda#0001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sodacova/datamine-update-bot/issues"
+  },
+  "homepage": "https://github.com/sodacova/datamine-update-bot#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "eris": "^0.15.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.12"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "typescript": "^4.3.2"
+  }
+}
